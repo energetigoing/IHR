@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+    html{background:#f0f0f0;}
+    .box{position: absolute;
+        margin-top: 0px;
+        padding-top: 0px;
+        top:0px;
+        left:0px;
+      height: 10%;
+      width: 100%;
+      background-color: #fff;
+         }
+    .gd {font-family: Arial, Helvetica, sans-serif; font-size:24px; font-weight: bold;color:#ff696b; line-height: 29px;}
+    .long{position: absolute;
+        margin-top: 0px;
+        padding-top: 0px;
+        top:10%; right:0%;
+      height: 90%;
+      width: 20%;
+      background-color: #d0d0d0;
+         }
+    .fang{background-color:#fff ;
+            position: absolute;
+                width: 16%;
+               height: 24%;
+                 border-top-left-radius: 10px;
+                 border-top-right-radius: 10px;
+                 border-bottom-left-radius: 10px;
+                 border-bottom-right-radius: 10px;
+                top:12%;
+             left: 82%;}
+    .big{background-color:#fff ;
+            position: absolute;
+                width: 16%;
+               height: 54%;
+                 border-top-left-radius: 15px;
+                 border-top-right-radius: 15px;
+                 border-bottom-left-radius: 15px;
+                 border-bottom-right-radius: 15px;
+                top:43%;
+             left: 82%;}
+
+
+
+    .cw{font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight: bold;color:#acacac; line-height: 24px;}
+    .qu{font-family: Arial, Helvetica, sans-serif; font-size:14px; font-weight: bold;color:#acacac; line-height: 24px;}
+    .nn{font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold;color:#000; line-height: 30px;}
+     .li{position: absolute;
+         top:34%;
+           left: 78.5%;}
+    .y{position: absolute;
+        top: 0%;
+        left: 82.5%;
+        height: 50%;
+    }
+    .nm{font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold;color:#000; line-height: 30px;}
+    .lw{position: absolute;
+         top:40%;
+           left: 78.5%;}
+    .z{position: absolute;
+        top: 0%;
+        left: 82.5%;
+        height: 50%;
+    }
+    .nc{font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold;color:#000; line-height: 30px;}
+    .lq{position: absolute;
+         top:46%;
+           left: 78.5%;}
+    .c{position: absolute;
+        top: 0%;
+        left: 82.5%;
+        height: 50%;
+    }
+    .nr{font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold;color:#000; line-height: 30px;}
+    .lo{position: absolute;
+         top:52%;
+           left: 78.5%;}
+    .o{position: absolute;
+        top: 0%;
+        left: 82.5%;
+        height: 50%;
+    }
+
+    .diyi{font-family: Arial, Helvetica, sans-serif; font-size:24px; font-weight: bold;color:#000; line-height: 52px;}
+    .ill{font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight: bold;color:#000; line-height: 30px;}
+    .yess{font-family: Arial, Helvetica, sans-serif; font-size:34px; font-weight: bold;color:#419028; line-height: 52px;}
+    .noo{font-family: Arial, Helvetica, sans-serif; font-size:34px; font-weight: bold;color:#d55243; line-height: 52px;}
+
+
+
+
+    
+
+    
+    .facebook{
+            position: absolute;
+                width: 260px;
+               height: 260px;
+                
+                top:-102%;
+             left: 12%;
+    }
+     
+
+
+
+
+    .gu{position: absolute;
+        
+          top:37.6%;
+        left: 29.5%;}
+    .ag{position: absolute;
+    display: inline-block;
+}
+
+
+.cor{position: absolute;
+        top:21%;
+      left: 85%;}
+      .kk{position: absolute;
+           width: 15px;}
+
+           .wro{position: absolute;
+        top:21%;
+      left: 92%;}
+      .no{position: absolute;
+           width: 15px;}
+    
+
+
+    .middle{position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    
+}
+
+    .btn{position: relative;
+       display:inline-block ;
+    color: #76148e;
+font-size: 15px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+margin: 50px 80px;
+border: 2px solid #FF696B;
+
+padding: 12px 45px;
+text-decoration: none;
+border-top-left-radius: 15px;
+                 border-top-right-radius: 15px;
+                 border-bottom-left-radius: 15px;
+                 border-bottom-right-radius: 15px;
+                 
+                 overflow: hidden;
+                 transition: 1s all ease;}
+
+
+
+                 .btn::before{background: linear-gradient(90deg,#ff8d58,#ff696b);
+                content: "";
+                position: absolute;
+                top: 84%;
+    left: 36.5%;
+    transform: translate(-50%,-50%);  
+z-index: -1;
+transition: 0.6s ease;}
+
+.btn1::before{width: 100%;
+height: 0;
+transform:translate(-50%,-50%)rotate(45deg);}
+
+.btn1:hover::before{width: 100%;
+height: 900%;
+}
+
+.btn2::before{width: 100%;
+height: 0;
+transform:translate(-50%,-50%)rotate(45deg);}
+
+.btn2:hover::before{width: 100%;
+height: 900%;
+}
+
+.loader{position: absolute;
+    top:93%;
+    left:28%;
+
+display: flex;}
+
+.loader span{display: block;
+width: 20px;
+height: 20px;
+
+border-radius: 50%;
+margin: 0 30px;}
+
+.circle1 {background:#58e0ae;}
+
+.circle2 {background:  #58e0ae ;}
+
+.circle3 {background:  #58e0ae ;}
+
+.circle4 {background:#ff696b  ;}
+
+.rec{position: absolute;
+    background: #58e0ae;
+opacity: 40%;
+width: 204px;
+height: 20px;
+left: 82.8%;
+top:52%}
+
+.rec2{position: absolute;
+    background: #ff696b;
+opacity: 40%;
+width: 204px;
+height: 20px;
+left: 82.8%;
+top:58%}
+
+.rec3{position: absolute;
+    background: #58e0ae;
+opacity: 40%;
+width: 204px;
+height: 20px;
+left: 82.8%;
+top:64%}
+
+.rec4{position: absolute;
+    background: #ff696b;
+opacity: 40%;
+width: 204px;
+height: 20px;
+left: 82.8%;
+top:70%}
+
+
+
+
+
+
+
+    
+    svg{position: absolute;
+            width:200px;
+               top:-8%;
+            left: 2%; }
+     
+    
+    </style>
+
+    <body>
+<div class="box"></div>
+<div style="position: absolute; left: 77%;top: 0%;">
+    <p class='gd'>Guidance for anonymity </p>
+ </div>
+
+ <div class="long"></div>
+ <div class="fang"></div>
+ <div style="position: absolute; left: 84.3%;top: 13%;">
+    <p class='cw'>Answer the questions </p>
+ </div>
+ <div class="big"></div>
+
+ <div style="position: absolute; left: 83.5%;top: 43%;">
+    <p class='qu'>Questions: </p> </div>
+
+    <div style="position: absolute; left: 83.5%;top: 50%;">
+        <p class='nn'>Number one: </p> 
+ </div>
+ <div class='li'><img src="line.png"  id="y"></div>
+ <div style="position: absolute; left: 83.5%;top: 56%;">
+    <p class='nm'>Number two: </p> 
+</div>
+<div class='lw'><img src="line.png"  id="z"></div>
+<div style="position: absolute; left: 83.5%;top: 62%;">
+    <p class='nc'>Number three: </p> 
+</div>
+<div class='lq'><img src="line.png"  id="c"></div>
+<div style="position: absolute; left: 83.5%;top: 68%;">
+    <p class='nr'>Number four: </p> 
+</div>
+<div class='lo'><img src="line.png"  id="o"></div>
+<div style="position: absolute; left: 50px;top: 9%;">
+    <p class='diyi'>Number four </p> </div>
+    <div class='facebook'><img src="system.png"  id="face" width="820px"></div>
+
+    <div style="position: absolute; left: -60%;top: 65%;">
+        <p class='ill'>If you want to use Tor browser, which system do you want to use, windows,
+            Linux? </p> </div>
+    <div class="middle">
+     <a href="file:///Users/chenbingze/Desktop/IHR/wrong1010.html" class="btn btn1">Windows</a>
+     <a href="file:///Users/chenbingze/Desktop/IHR/right1011.html" class="btn btn2">Linux</a>
+    </div>
+
+    <div class="loader">
+        <span class="circle1"></span>
+        <span  class="circle2"></span>
+        <span  class="circle3"></span>
+        <span class="circle4"></span>
+    </div>
+
+    <div class="rec"></div>
+
+    <div style="position: absolute; left: 85.5%;top: 22%;">
+        <p class='yess'>2 </p> </div>
+
+        <div style="position: absolute; left: 92.7%;top: 22%;">
+            <p class='noo'>1 </p> </div>
+
+        <div class="rec2"></div>
+        <div class="rec3"></div>
+        <div class="rec4"></div>
+    
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 327.4 327.4" style="enable-background:new 0 0 327.4 327.4;" xml:space="preserve" >
+<style type="text/css">
+	.st0{fill:#FF696B;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st3{font-family:'DINAlternate-Bold';}
+	.st4{font-size:20.61px;}
+</style>
+<title>画板 36</title>
+<rect x="58.8" y="131.1" class="st0" width="207.9" height="80"/>
+<path class="st1" d="M110.7,189.1h-2.1V175c0.3-0.9,1.2-1.5,2.1-1.6h7.3c0,0,8.9,0.5,10.2,10.7c0,0,0.4,11-10.7,12.3h-7
+	c-1-0.3-1.7-1.2-1.8-2.3h9.1c0,0,7.9-0.6,8.1-10c-0.5-4.3-3.8-7.8-8.1-8.6h-6.9L110.7,189.1z"/>
+<path class="st1" d="M107.2,176.7v14h10.6c2.6-0.8,4.4-3.1,4.7-5.8c-0.2-2.7-2.2-5-4.9-5.6h-5.8v-2.4h6.2c0,0,7,1.9,6.6,8.4
+	c0,0-0.2,6.9-7,7.9h-10.5c0,0-1.7,0.1-1.9-2.3v-12.4C105.1,178.3,106.1,176.7,107.2,176.7z"/>
+<line class="st2" x1="102.8" y1="165.6" x2="130" y2="165.6"/>
+<path class="st2" d="M95.5,145.8c0,0,20.9,23-7.9,45.2"/>
+<path class="st2" d="M137.6,145.8c0,0-20.9,23,7.9,45.2"/>
+<text transform="matrix(1 0 0 1 180.05 164.35)" class="st1 st3 st4">Hide</text>
+<text transform="matrix(1 0 0 1 180.05 189.16)" class="st1 st3 st4">In dark</text>
+</svg>
+
+
+
+
+
+
+
+<div class='cor'><img src="correct.png" id='kk' width="35px"> </div>
+<div class='wro'><img src="wrong.png"id='no'width="35px"> </div>
+
+
+
+
+
+    </body>
+
+
+    <script src="js/libs/anime.min.js"> </script>
+    <script src="js/main.js">  </script>
+
+    
+    
+
+    <script>
+anime({
+  targets: '.facebook',
+  translateY: 870,
+  easing: 'easeInOutExpo',
+   delay:1700,
+duration:2100})
+
+    </script>
+
+    <script>
+    anime({targets:'.ill',
+        translateX:1140,
+    delay:6600,
+duration:4000}
+    )
+    </script>
